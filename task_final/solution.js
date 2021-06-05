@@ -50,7 +50,7 @@ function sendRequest(name, phone, address, goods, sum) {
      //ул. Академика Королёва, дом 12, 1 подъезд, 15 этаж, кв 253
     //data.client = 'Иван';
 
-    let jsonData = JSON.stringify(data);
+    let jsonData = JSON.stringify({data});
 
     return jsonData;
 }
